@@ -141,6 +141,7 @@ void handleRoot() {
   webpage += "<p>Number of unique connections since last reset: " + String(unique_connections) + "</p>";
   webpage += "<p>Current number of connections: " + String(current_clients) + "</p>";
   webpage += "<!-- routes: /matrixform /changetext -->";
+  webpage += "<!-- made by p0st -->";
   webpage += "</body></html>";
 
   // Send the HTML page as the response
