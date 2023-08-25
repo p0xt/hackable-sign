@@ -137,7 +137,7 @@ void handleRoot() {
 
   String webpage = "<html><body>";
   webpage += "<h1>Welcome, friend :)</h1>";
-    webpage += "<p>Current text displayed: </p>" + String(text);
+  webpage += "<p>Current text displayed: </p>" + String(text);
   webpage += "<p>Click <a href='/matrixform'>here</a> to submit newtext to the matrix display.</p>";
   webpage += "<p>Number of unique connections since last reset: " + String(unique_connections) + "</p>";
   webpage += "<p>Current number of connections: " + String(current_clients) + "</p>";
