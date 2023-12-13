@@ -10,6 +10,10 @@ Most of the code used to communicate to the MAX7219 dot matrix display was taken
 - Computer with the Arduino IDE (or PlatformIO; however, the instructions below will use the Arduino IDE)
 - Wires
 
+## Default settings:
+SSID: hackable-sign
+Web portal: http://192.168.4.22
+
 ## Connect MAX7219 to ESP8266
 The following table shows how to connect the pins on the MAX7219 display to the ESP8266 using wires. If the ESP8266 has pins pre-sodered you can use the female to female wires that typically come bundled with the MAX7219. 
 ```
@@ -25,4 +29,4 @@ The following table shows how to connect the pins on the MAX7219 display to the 
 ```
 
 ## Arduino Setup
-COMING SOON
+COMING SOON lol
