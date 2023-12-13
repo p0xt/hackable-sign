@@ -59,7 +59,7 @@ void checkForNewConnections() {
 
 // Setup function runs once on device startup
 void setup() {
-  const char* ssid = "ESP-CTF"; // WiFi network name (SSID)
+  const char* ssid = "hackable-sign"; // WiFi network name (SSID)
   const int max_connections = 2; // Maximum number of simultaneous connections
 
   // Set the ESP8266 in Access Point (AP) mode
@@ -83,7 +83,7 @@ void setup() {
 
   // Initialize LED matrix display
   Display.begin();
-  Display.setIntensity(0);
+  Display.setIntensity(15); // Change brightness from 0 to 15
   Display.displayClear();
   Display.displayScroll(text.c_str(), PA_RIGHT, PA_SCROLL_LEFT, 50);
 
