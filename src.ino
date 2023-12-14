@@ -27,7 +27,7 @@ const char* http_password = "31337";
 ESP8266WebServer server(80);
 
 // WiFi network settings for the Access Point (AP) mode
-IPAddress local_IP(192, 168, 4, 22);
+IPAddress local_IP(192, 168, 4, 1);
 IPAddress gateway(192, 168, 4, 9);
 IPAddress subnet(255, 255, 255, 0);
 
