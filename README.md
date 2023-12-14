@@ -13,8 +13,10 @@ NOTE: This project is intentionally insecure. It is meant to be hacked.
 - Wires
 
 ## Default settings:
-SSID: hackable-sign
-Web portal: http://192.168.4.1
+- SSID: hackable-sign
+- Web portal: http://192.168.4.1
+- Web portal username: admin
+- Web portal password: 31337
 
 ## Variables you may want to change:
 On line 18 you can find the default text. This is the text that the device will display on boot. There is no persistence when you change the text from the web interface. 
