@@ -14,7 +14,7 @@ NOTE: This project is intentionally insecure. It is meant to be hacked.
 
 ## Default settings:
 SSID: hackable-sign
-Web portal: http://192.168.4.22
+Web portal: http://192.168.4.1
 
 ## Variables you may want to change:
 On line 18 you can find the default text. This is the text that the device will display on boot. There is no persistence when you change the text from the web interface. 
@@ -25,7 +25,7 @@ On lines 22 and 23 you'll find the web console default credentials. There is no 
 ```const char* http_password = "31337";```
 
 On line 30 you'll find the IP address of the web interface. You should be able to change it to anything you want within the 192.168.4.0/24 range but this is not very important. The important thing to know is that this will be how you access the web interface to change the text. By default you'd go to http://192.168.4.1. 
-```IPAddress local_IP(192, 168, 4, 22);```
+```IPAddress local_IP(192, 168, 4, 1);```
 
 Lastly on line 62 you can change the SSID. The default is "hackable-sign".
 ```const char* ssid = "hackable-sign";```
